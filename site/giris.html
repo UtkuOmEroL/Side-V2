@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/giris.css">
+</head>
+<body>
+    <div class="bg-img">
+        <div class="kayıt-container">
+            <div class="kayit">
+            <div class="nickname">  <label for="">Takma Adınızı Giriniz</label>  <br> <input onchange="checkUser(value, name)" type="text" class="nickname-text" name="nickname"></div>
+            <div class="password"> <label for="">Şifrenizi Giriniz</label> <br> <input onchange="checkUser(value, name)" type="password" class="password-text" name="password"></div>
+           <div class="bottom"> 
+              <input type="checkbox" name="Beni" id=""> <p>Beni Hatırla</p>
+               <div class="y"> <button onclick="giris()" class="btn">Giris yap</button>
+           </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="js/giris.js"></script>
+</html>

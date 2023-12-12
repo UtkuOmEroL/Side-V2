@@ -1,0 +1,41 @@
+.bg-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url("/site/photo/wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: rgba(174, 103, 169, 0.2); /* Opak renk kullanımı */
+    width: 50%;
+    height: 931px;
+    float: right;
+}
+.sidebar {
+    width: 50%;
+    height: 931px;
+    float:left;
+}
+
+.profile-photo {
+    background-color: black;
+    background-image: url('/site/photo/Walter_White.webp');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: center;
+    height: 30%;
+    width: 1000px;
+    clip-path: circle(17.1% at 50% 50%);
+    opacity: 1; /* .profile-photo tamamen opak */
+}
+.bilgi-text{
+    height: 70%;
+    width: 1000px;
+}

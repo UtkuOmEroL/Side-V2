@@ -1,0 +1,130 @@
+body{
+    color: aqua;
+}
+label{
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    color: aqua;
+}
+.navbar{
+    display: flex;
+    background-color: #a9927d;
+    height: 30px;
+    padding-top: 13px;
+    align-items: center;
+}
+.navbar a{
+    margin-left: 20px;
+    align-items: center;
+}
+.kayıt-container{
+    position:absolute;
+    left: 30%;
+    top: 25%;
+    background-color: #9d98c1;
+    width: 550px;
+    height: 210px;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+.bg-img{
+    position:fixed; 
+    top:0px; 
+    left:0px; 
+    right:0px; 
+    background-image: url("../photo/wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.name{ 
+    align-items: center;
+}
+
+.name-text{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+.surname{
+    align-items: center;
+}
+.surname-text{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+.nickname{
+    align-items: center;
+}
+.nickname-text{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+.password{
+    align-items: center;
+}
+.password-text{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.password{
+    align-items: center;
+}
+.password-text{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+.bottom{
+    position: absolute;
+    right: 10%;
+    display: flex;
+}
+.y{
+   margin: 0;
+   margin: auto;
+}
+.btn{
+    margin-left: 210px;
+}
+.kayit{
+   text-align: center;
+   position: relative;
+   top: 15%;
+}
+.left{
+    display: flex;
+    margin: 0;
+    display: flex;
+}
+.left a{
+    margin: 0;
+    margin: auto;
+    width: 200px;
+}
+.aAa{
+    width: 10px;
+}
+.check{
+    width: 10px;
+}
+.left p {
+    width: 20px;
+}

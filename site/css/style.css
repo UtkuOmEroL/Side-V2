@@ -1,0 +1,72 @@
+body{
+    font-family: Review;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .countainer{
+    position:fixed; 
+    top:0px; 
+    left:0px; 
+    right:0px; 
+  }
+.navbar{
+    position:fixed; 
+    top:0px; 
+    left:0px; 
+    right:0px; 
+    display: flex;
+    background-color: #a9927d;
+    height: 40px;
+    padding-top: 15px;
+    text-decoration:none
+}
+.navbar a{
+    margin-left: 20px;
+}
+.bilgi{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.content h2{
+    width: 100px;
+    margin-top: 20px;
+}
+.content {
+    width: 50%;
+    height:931px;
+    float:right;
+}
+.sidebar {
+    width: 50%;
+    height: 931px;
+    background-image: url('./istockphoto-1128696377-1024x1024.jpg');
+    background-repeat: no-repeat;
+    float:left;
+    background-size: cover;
+    background-position: center;
+}
+.logo-navbar{
+  margin-bottom: 15px;
+  height: 30px;
+}
